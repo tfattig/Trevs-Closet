@@ -7,7 +7,7 @@ const CartItemStyles = styled.li`
 `;
 
 const CartItem = props => <CartItemStyles>
-    {props.CartItemStyles.id}
+    <img width="100" src={props.cartItem.item.image} alt="" />
 </CartItemStyles>;
 
 CartItem.propTypes = {
